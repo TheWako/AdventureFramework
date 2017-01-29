@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial;
+	background-image: url("../img/night.png");
+}
+
+h1{
+	margin-top: 5%;
+}
+
+.newgame{
+	line-height: 4em;
+	margin-top: 15%;
+}
+
+.newgame a{
+	text-decoration: none;
+	font-size: 2em;
+	color: #3A3A99;
+	transition: 0.3s ease;
+}
+
+.newgame a:hover{
+	color: white;
+}

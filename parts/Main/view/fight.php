@@ -7,14 +7,14 @@
 </head>
 <body>
 
-	<h1>Bienvenue dans Pokémon Nocturne !</h1>
+
+	<h1>Combat vs Red !</h1>
 
 	<div class="newgame">
-		<a href="/intro">
+		<a href="/introduction">
 			Nouvelle partie
 		</a>
 	</div>
 
-	<p class="uri">Vous avez entré cet URI : <?php echo $_SERVER['REQUEST_URI'] ?></p>
 </body>
 </html>
