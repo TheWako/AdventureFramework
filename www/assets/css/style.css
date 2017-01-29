@@ -57,7 +57,9 @@ a:hover{
 
 .prof{
 	display: inline-block;
-	width: 20%;
+	width: 15%;
+	position: absolute;
+	left: 150px;
 }
 
 .txtintro{
@@ -68,11 +70,43 @@ a:hover{
 
 .txtintro p{
 	display: inline-block;
-	font-size: 2rem;
+	position: absolute;
+	left: 550px;
+	font-size: 1.2rem;
 	line-height: 2em;
-	width: 100%
+	width: 40%
 }
 
-.txtintro a{
-	opacity: 0;
+.chooselink{
+	position: absolute;
+	bottom: 90px;
+	margin-left: -24%;
+	font-size: 1.3rem;
+	border: 3px solid #3A3A99;
+	padding: 0.5%;
+	display: none;
+}
+
+.garcon{
+	display: none;
+	position: absolute;
+	bottom: 90px;
+	left: 800px;
+	font-size: 1.3rem;
+	border: 3px solid #3A3A99;
+	padding: 0.5%;
+	background-color: #3A3A99;
+	cursor: pointer;
+}
+
+.fille{
+	display: none;
+	position: absolute;
+	bottom: 90px;
+	left: 900px;
+	font-size: 1.3rem;
+	border: 3px solid #3A3A99;
+	padding: 0.5%;
+	background-color: #3A3A99;
+	cursor: pointer;
 }

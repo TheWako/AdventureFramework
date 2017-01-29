@@ -16,8 +16,10 @@
 			
 			
 		</p>
-		<a id="choose" href="/starter"></a>
 	</div>
+	<button id="garcon" class="garcon">Garçon</button>
+	<button id="fille" class="fille">Fille</button>
+	<a id="choose" class="chooselink" href="/starter">Choose</a>
 <script type="text/javascript" src="/assets/js/script.js"></script>
 </body>
 </html>
