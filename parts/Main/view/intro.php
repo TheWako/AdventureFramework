@@ -9,28 +9,14 @@
 
 	<h1>Professeur Sapin</h1>
 
+
+	<img class="prof" src="assets/img/professor.png">
 	<div class="txtintro">
 		<p id="sapintxt">
-			Hey, salut !
-			Ravi de voir !
-			Bienvenue dans le monde de POKéMONS !
-			Je m'appelle SAPIN.
-			Les gens m'appellent aussi le PROFESSEUR POKéMON.
-			Ce monde est peuplé par des créatures appelés POKéMONS.
-			Pour certaines personnes, les POKéMONS sont des animeaux de compagnie.
-			D'autres les utilisent pour des combats.
-			Et en ce qui me concerne : Mon métier est d'étudier les POKéMONS.
-			Maintenant, parle-moi un peu de toi.
-			Es-tu un garçon ? Ou es-tu une fille ?
-			Très bien. Comment t'appelles-tu ?
-			D'accord, donc ton nom est [PLAYER].
-			Lui, c'est mon petit-fils, Red.
-			Vous êtes rivaux depuis votre enfance.
-			Tu vas avoir besoin d'un POKéMON pour commencer ton aventure !
-			Je te laisse choisir parmi ces 3 POKéMONS.
-			Choisis bien ton POKéMON, tu ne pourras pas le changer après :
-			<a href="/starter">Choisir</a>
+			
+			
 		</p>
+		<a id="choose" href="/starter"></a>
 	</div>
 <script type="text/javascript" src="/assets/js/script.js"></script>
 </body>

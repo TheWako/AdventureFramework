@@ -5,13 +5,13 @@ return array( 'routes' => array(
             'rawcall' => 'Main/view/index.php',
         ),
         '/intro' => array(
-        	'intro' => 'Main/view/intro.php',
+        	'call' => 'Main/view/intro.php',
         ),
         '/starter' => array(
-        	'starter' => 'Main/view/starter.php',
+        	'call' => 'Main/view/starter.php',
         ),
         '/fight' => array(
-        	'fight' => 'Main/view/fight.php',
+        	'call' => 'Main/view/fight.php',
         ),
     ),
 );
