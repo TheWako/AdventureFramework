@@ -40,7 +40,7 @@ Vhost à mettre en place :
     </Directory>
 </VirtualHost>
 ```
-Où alors éxecuter la commande dans le dossier www/:
+Où alors, éxecuter la commande dans le dossier www/:
 
 php -S localhost:8000
 
