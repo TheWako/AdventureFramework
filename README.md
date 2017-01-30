@@ -11,7 +11,7 @@
 
 Architecture :
 
-
+```html
 Root => config/routes.php
      => parts => Main => view => index.php
                               => intro.php
@@ -25,7 +25,7 @@ Root => config/routes.php
                       => js => script.js
             => .htaccess
             => index.php
-           
+```     
 Vhost à mettre en place : 
 ```html
 <VirtualHost *:80>
