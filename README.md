@@ -44,3 +44,11 @@ Où alors, éxecuter la commande dans le dossier www/:
 
 php -S localhost:8000
 
+
+## Story :
+
+Dirigez un dresseur de Pokémon qui doit devenir le meilleur d'entre tous ! Pour cela, combattez les dresseurs les plus puissants de cet univers ! Progressez avec vos fidèles compagnons et remportez les défis que vous offre l'univers Pokémon !
+
+
+
+
