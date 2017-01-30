@@ -27,7 +27,7 @@ Root => config/routes.php
             => index.php
            
 Vhost à mettre en place : 
-
+```html
 <VirtualHost *:80>
     ServerName root.dev
     DocumentRoot "C:/wamp/www/root_framework/www"
@@ -39,7 +39,7 @@ Vhost à mettre en place :
         allow from all
     </Directory>
 </VirtualHost>
-
+```
 Où alors éxecuter la commande dans le dossier www/:
 
 php -S localhost:8000
