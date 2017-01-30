@@ -2,21 +2,17 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <title>Salut !</title>
+    <title>Pokémon Nocturne</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 <body>
 
+	<h1>Bienvenue dans Pokémon Nocturne !</h1>
 
-
-
-
-<h1>Bonjour à tous !</h1>
-
-
-
-
-
-    
-Vous avez entré cet URI : <?php echo $_SERVER['REQUEST_URI'] ?>
+	<div class="newgame">
+		<a href="/intro">
+			Nouvelle partie
+		</a>
+	</div>
 </body>
 </html>

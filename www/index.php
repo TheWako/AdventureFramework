@@ -1,6 +1,9 @@
 <?php
 
+include_once '../config/connectDB.php';
+
 require join(DIRECTORY_SEPARATOR, array(dirname( __DIR__ ), 'vendor', 'loader.php'));
+
 
 try {
     Root\System\Application::_start();

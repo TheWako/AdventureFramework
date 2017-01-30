@@ -1,19 +1,7 @@
 <?php 
 
-/**
- * File loader.php
- *
- * Will load all vendors
- *
- * @category Root
- * @package Root
- * @license http://opensource.org/licenses/MIT
- * @link /
- * @since Version 0.0.1
- * @version 0.0.1
- */
 define( 'DS', DIRECTORY_SEPARATOR );
-define( 'CONFPATH', join( DS, array(dirname(__DIR__), 'config')) );
+define( 'CONFPATH', join( DS, array(dirname(__DIR__), 'config/route')) );
 define( 'PARTPATH', join( DS, array(dirname(__DIR__), 'parts')) );
 
 if( $dir = opendir( __DIR__ ) ){
